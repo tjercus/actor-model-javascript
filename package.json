@@ -1,0 +1,19 @@
+{
+  "name": "actor-calculator",
+  "version": "1.0.0",
+  "description": "actor model implentation of a calculator in javascript",
+  "main": "index.js",
+  "scripts": {
+    "build": "babel src -d lib",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Tjerk Valentijn",
+  "license": "ISC",
+  "dependencies": {
+    "eventemitter4": "^0.2.4"
+  },
+  "devDependencies": {
+    "babel-cli": "^6.26.0",
+    "babel-preset-env": "^1.6.0"
+  }
+}
