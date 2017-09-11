@@ -8,7 +8,19 @@ Tinkering with the actor model (https://en.wikipedia.org/wiki/Actor_model)
 
 Based on the interesting post at https://monades.roperzh.com/get-to-know-the-actor-model/
 
+#### calculator-single-actor.js
+
+simple calculator with one actor
+
+#### calculator-multiple-actors.js
+
+DOING
+
+#### calculator-multiple-actors-webworkers.js
+
+TODO
+
 ## HOWTO
 git clone
 npm install (or yarn)
-npm run build; node lib/index.js
+npm run build; node lib/<x>.js
