@@ -14,7 +14,8 @@ simple calculator with one actor
 
 #### calculator-multiple-actors.js
 
-DOING
+simple calculator involving the coordination between three actors, one with controller/router
+behaviour and two with worker skills.
 
 #### calculator-multiple-actors-webworkers.js
 
