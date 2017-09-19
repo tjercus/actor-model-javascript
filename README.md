@@ -15,13 +15,13 @@ simple calculator with one actor
 #### calculator-multiple-actors.js
 
 simple calculator involving the coordination between three actors, one with controller/router
-behaviour and two with worker skills.
+behaviour and two with addingWorkerActor skills.
 
-#### calculator-multiple-actors-webworkers.js
+#### calculator-multiple-actors-webworkers/index.js
 
-TODO
+simple calculator where adding and subtracting are done in separate threads.
 
 ## HOWTO
 git clone
 npm install (or yarn)
-npm run build; node lib/<x>.js
+npm run test

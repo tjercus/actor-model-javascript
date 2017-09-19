@@ -2,7 +2,7 @@ import EventEmitter from "eventemitter4";
 
 const eventbus = new EventEmitter();
 
-/* Is a worker that:
+/* Is a addingWorkerActor that:
  - receives add- or subtract request
  - and asks workers to do work
  - holds the state for the calculator
@@ -42,7 +42,7 @@ const calculatorActor = {
   }
 };
 
-/* Is a worker that knows how to add two numbers and sends a message to the requester when done */
+/* Is a addingWorkerActor that knows how to add two numbers and sends a message to the requester when done */
 const addingActor = {
   _address: Symbol(),
   start(eventbus) {
@@ -55,7 +55,7 @@ const addingActor = {
   }
 };
 
-/* Is a worker that knows how to subtract two numbers and sends a message to the requester when done */
+/* Is a addingWorkerActor that knows how to subtract two numbers and sends a message to the requester when done */
 const subtractingActor = {
   _address: Symbol(),
   start(eventbus) {
